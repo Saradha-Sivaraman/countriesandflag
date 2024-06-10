@@ -22,10 +22,11 @@ const CountryCard=({name,flagImg,flagAltTxt})=>
         </div>
     )
 
-}
+} 
 function Countries()
 {
-   const ApiUrl = "https://restcountries.com/v3.1/all";
+   //const ApiUrl = "https://restcountries.com/v3.1/all";
+   const ApiUrl = "https://xcountriesapi.onrender.com/all";
    const [countries,setCountries]= useState([])
    useEffect(()=>{
     fetch(ApiUrl)
