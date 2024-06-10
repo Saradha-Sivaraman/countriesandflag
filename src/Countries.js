@@ -47,9 +47,12 @@ function Countries()
 
     }}>
      {countries.map((country)=>(<CountryCard 
-     name={country.name.common} 
-     flagImg={country.flags.png}
-     flagAltTxt={country.flags.alt}
+    // name={country.name.common} 
+     //flagImg={country.flags.png}
+     //flagAltTxt={country.flags.alt}
+      name={country.name} 
+     flagImg={country.flags}
+     flagAltTxt={country.abbr}
      />))}
     </div>
   );
