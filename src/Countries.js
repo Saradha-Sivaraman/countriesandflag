@@ -51,7 +51,7 @@ function Countries()
      //flagImg={country.flags.png}
      //flagAltTxt={country.flags.alt}
       name={country.name} 
-     flagImg={country.flags}
+     flagImg={country.flag}
      flagAltTxt={country.abbr}
      />))}
     </div>
